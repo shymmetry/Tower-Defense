@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Impact Game</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/builder.css">
+	<script type="text/javascript" src="lib/impact/impact.js"></script>
+	<script type="text/javascript" src="lib/game/main.js"></script>
+</head>
+<body>
+	<div id="gameScreen" style="position:relative">
+		<div id="heading">
+			<h2 class="header">Money: </h2><h2 class="header" id="money"></h2>
+			<h2 class="header">Lives: </h2><h2 class="header" id="lives"></h2>
+			<h2 class="header">Round: </h2><h2 class="header" id="round"></h2>
+			<input id="startButton" type="button" value="Start Round" onclick=startRound() />
+		</div>
+		
+		<canvas id="canvas"></canvas>
+		<div id="builder"></div>
+	</div>
+</body>
+</html>
